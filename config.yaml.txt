@@ -1,0 +1,73 @@
+# Content Retrieval System Configuration
+
+# Scraping Configuration
+
+scraping:
+rate_limit_delay: 2 # seconds between requests
+timeout: 30 # request timeout in seconds
+user_agent: “Mozilla/5.0 (Educational Project) ContentRetrieval/1.0”
+respect_robots: true
+max_retries: 3
+
+# Website Configuration
+
+websites:
+
+"name": "WHO",
+"url": "https://data.who.int/dashboards/covid19/cases?n=c",
+"category": "Government ",
+
+"name": "Microsoft",
+"url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns?toc=%2Fazure%2Fdeveloper%2Fai%2Ftoc.json&bc=%2Fazure%2Fdeveloper%2Fai%2Fbreadcrumb%2Ftoc.json",
+        "category": "Technology ",
+
+"name":"apnews",
+"url":"https://apnews.com/",
+"category" :"News"
+   
+"name":"towardsdatascience",
+"url":"https://towardsdatascience.com/solving-a-constrained-project-scheduling-problem-with-quantum-annealing-d0640e657a3b/",
+"category" :"Educational Resources"
+  
+
+# Text Processing Configuration
+
+text_processing:
+chunk_size: 200 # target characters per chunk
+chunk_overlap: 150 # overlapping characters
+
+
+# Embedding Configuration
+
+embeddings:
+model_name: “all-MiniLM-L6-v2”
+
+# Alternative models:
+
+# - “all-mpnet-base-v2” # Higher quality, 768 dimensions
+
+# - “multi-qa-MiniLM-L6-cos-v1” # Optimized for Q&A
+
+batch_size: 32
+normalize: true # normalize for cosine similarity
+
+
+# Vector Database Configuration
+
+vector_database:
+platform: “chromadb”
+collection_name: “content_retrieval_db”
+persist_directory: “./chroma_db”
+distance_metric: “cosine” # cosine, l2, or ip
+
+# Search Configuration
+
+search:
+top_k_results: 5
+min_similarity_threshold: 0.43
+
+# Output Configuration
+
+output:
+save_results: true
+results_file: “system_results.json”

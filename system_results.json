@@ -1,0 +1,298 @@
+[
+  {
+    "query": "search Quantum Annealing",
+    "top_k": 5,
+    "timestamp": "2026-01-11T09:44:52.388620",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.2915414571762085,
+        "domain": "towardsdatascience",
+        "text": "such as finding the minimum or maximum value of a problem. Imagine trying to find the lowest point in a rugged, hilly landscape aka the \"best\" solution to a problem. Traditional methods might get stuck in small dips, mistaking them for the lowest point. In contrast, a quantum annealer leverages the properties of quantum mechanics, attempting to tunnel through these local minima and guide the system to the true lowest point, or optimal solution. The effectiveness of quantum annealing, compared to its classical counterpart, can vary depending on the specific problem and the hardware used. The literature presents both theoretical proofs [3] that highlight the advantages of quantum annealing, as well as contrasting perspectives, particularly when compared to simulated annealing At the core of "
+      },
+      {
+        "rank": 2,
+        "score": 0.3041045069694519,
+        "domain": "towardsdatascience",
+        "text": "t or show your appreciation with a clap 👏 . And if you’re interested in staying updated on my latest articles, consider following me on Medium. Your support and feedback are what drive me to keep exploring and sharing. Thank you for taking the time to read, and stay tuned for more insights in my next article! References [1] Pérez Armas, L. F., Creemers, S., & Deleplanque, S. (2024). Solving the resource constrained project scheduling problem with quantum annealing. Scientific Reports , 14 (1), 16784. https://doi.org/10.1038/s41598-024-67168-6 [2] Albash, T., & Lidar, D. A. (2018). Adiabatic quantum computation. Reviews of Modern Physics , 90 (1), 015002. [3] Kadowaki, T., & Nishimori, H. (1998). Quantum annealing in the transverse Ising model. Physical Review E , 58 (5), 5355. [4] Kirkpatr"
+      },
+      {
+        "rank": 3,
+        "score": 0.32135504484176636,
+        "domain": "towardsdatascience",
+        "text": " highlight the advantages of quantum annealing, as well as contrasting perspectives, particularly when compared to simulated annealing At the core of quantum annealing is the profound concept that the universe naturally tends to seek states of minimum energy, known as ground states. Quantum annealing also relies on the \"adiabatic theorem\" of quantum mechanics and the evolution of quantum systems as described by the time-dependent Schrödinger equation. Optimization problems can be represented as physical systems and formulated as energy Hamiltonian problems, which are mathematical representations of a system’s total energy. A common approach is to use the ISING model to encode the optimization problem into a physical system. In this model, the optimization problem is mapped onto a represent"
+      },
+      {
+        "rank": 4,
+        "score": 0.33648866415023804,
+        "domain": "towardsdatascience",
+        "text": " research article, which you can access using the link down below. Solving the resource constrained project scheduling problem with quantum annealing – Scientific… Before we get into the coding, I’ll give you a quick intro to quantum annealing and how it’s used in optimization. Let’s get started! Article index: What is quantum annealing? The RCPSP and it’s binary MILP formulation Installing the libraries and setting up the Colab environment D-wave CQM for the RCPSP Solving the instance and extracting the output Conclusions References What is quantum annealing? Quantum Annealing is a quantum metaheuristic designed to solve combinatorial optimization problems by leveraging the principles of quantum mechanics [2]. This approach is inspired by simulated annealing [4], a classical metaheuristic"
+      },
+      {
+        "rank": 5,
+        "score": 0.35071825981140137,
+        "domain": "towardsdatascience",
+        "text": "t’s a heuristic method. However, it’s an extremely powerful heuristic that can be applied to a wide range of optimization problems. I also compared Gurobi and quantum annealing on the same instance we have worked with in this article, but this time using for both methods the naive time horizon. As shown in Figure 20, Gurobi took 446.9 seconds to produce the optimal solution of 39 days using the naive time horizon, while quantum annealing took only 5.1 seconds to generate a near-optimal solution of 40 days. Figure 20. Benchmark of gurobi and D-waves CQM (Image created by the author) Even though quantum annealing didn’t achieve the optimal solution in this benchmark, the beauty of heuristics lies in their speed and flexibility. Heuristics can be combined with exact methods to reach the optim"
+      }
+    ]
+  },
+  {
+    "query": "Quantum Annealing",
+    "top_k": 5,
+    "timestamp": "2026-01-11T09:45:23.487097",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.2623057961463928,
+        "domain": "towardsdatascience",
+        "text": "such as finding the minimum or maximum value of a problem. Imagine trying to find the lowest point in a rugged, hilly landscape aka the \"best\" solution to a problem. Traditional methods might get stuck in small dips, mistaking them for the lowest point. In contrast, a quantum annealer leverages the properties of quantum mechanics, attempting to tunnel through these local minima and guide the system to the true lowest point, or optimal solution. The effectiveness of quantum annealing, compared to its classical counterpart, can vary depending on the specific problem and the hardware used. The literature presents both theoretical proofs [3] that highlight the advantages of quantum annealing, as well as contrasting perspectives, particularly when compared to simulated annealing At the core of "
+      },
+      {
+        "rank": 2,
+        "score": 0.2819631099700928,
+        "domain": "towardsdatascience",
+        "text": "t or show your appreciation with a clap 👏 . And if you’re interested in staying updated on my latest articles, consider following me on Medium. Your support and feedback are what drive me to keep exploring and sharing. Thank you for taking the time to read, and stay tuned for more insights in my next article! References [1] Pérez Armas, L. F., Creemers, S., & Deleplanque, S. (2024). Solving the resource constrained project scheduling problem with quantum annealing. Scientific Reports , 14 (1), 16784. https://doi.org/10.1038/s41598-024-67168-6 [2] Albash, T., & Lidar, D. A. (2018). Adiabatic quantum computation. Reviews of Modern Physics , 90 (1), 015002. [3] Kadowaki, T., & Nishimori, H. (1998). Quantum annealing in the transverse Ising model. Physical Review E , 58 (5), 5355. [4] Kirkpatr"
+      },
+      {
+        "rank": 3,
+        "score": 0.2846790552139282,
+        "domain": "towardsdatascience",
+        "text": " highlight the advantages of quantum annealing, as well as contrasting perspectives, particularly when compared to simulated annealing At the core of quantum annealing is the profound concept that the universe naturally tends to seek states of minimum energy, known as ground states. Quantum annealing also relies on the \"adiabatic theorem\" of quantum mechanics and the evolution of quantum systems as described by the time-dependent Schrödinger equation. Optimization problems can be represented as physical systems and formulated as energy Hamiltonian problems, which are mathematical representations of a system’s total energy. A common approach is to use the ISING model to encode the optimization problem into a physical system. In this model, the optimization problem is mapped onto a represent"
+      },
+      {
+        "rank": 4,
+        "score": 0.337058424949646,
+        "domain": "towardsdatascience",
+        "text": " research article, which you can access using the link down below. Solving the resource constrained project scheduling problem with quantum annealing – Scientific… Before we get into the coding, I’ll give you a quick intro to quantum annealing and how it’s used in optimization. Let’s get started! Article index: What is quantum annealing? The RCPSP and it’s binary MILP formulation Installing the libraries and setting up the Colab environment D-wave CQM for the RCPSP Solving the instance and extracting the output Conclusions References What is quantum annealing? Quantum Annealing is a quantum metaheuristic designed to solve combinatorial optimization problems by leveraging the principles of quantum mechanics [2]. This approach is inspired by simulated annealing [4], a classical metaheuristic"
+      },
+      {
+        "rank": 5,
+        "score": 0.34278935194015503,
+        "domain": "towardsdatascience",
+        "text": "sical methods to create even more powerful solutions to challenging. In summary I think hybrid is the future, and that is where I am currently steering my research. You can find the entire notebook with the code developed for this article in the link to my GitHub repository just below. medium_rcpsp_dwave_cqm/RCPSP_DWAVE_CQM_Medium.ipynb at main · ceche1212/medium_rcpsp_dwave_cqm I sincerely hope that this article had been enjoyable and had served as a helpful resource for anyone, trying to learn more about quantum computing and more specifically about quantum annealing. If so, I’d love to hear your thoughts! Please feel free to leave a comment or show your appreciation with a clap 👏 . And if you’re interested in staying updated on my latest articles, consider following me on Medium. Your s"
+      }
+    ]
+  },
+  {
+    "query": "quantum qnnealing",
+    "top_k": 5,
+    "timestamp": "2026-01-11T09:45:39.709090",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.3946237564086914,
+        "domain": "towardsdatascience",
+        "text": "t or show your appreciation with a clap 👏 . And if you’re interested in staying updated on my latest articles, consider following me on Medium. Your support and feedback are what drive me to keep exploring and sharing. Thank you for taking the time to read, and stay tuned for more insights in my next article! References [1] Pérez Armas, L. F., Creemers, S., & Deleplanque, S. (2024). Solving the resource constrained project scheduling problem with quantum annealing. Scientific Reports , 14 (1), 16784. https://doi.org/10.1038/s41598-024-67168-6 [2] Albash, T., & Lidar, D. A. (2018). Adiabatic quantum computation. Reviews of Modern Physics , 90 (1), 015002. [3] Kadowaki, T., & Nishimori, H. (1998). Quantum annealing in the transverse Ising model. Physical Review E , 58 (5), 5355. [4] Kirkpatr"
+      },
+      {
+        "rank": 2,
+        "score": 0.4400370717048645,
+        "domain": "towardsdatascience",
+        "text": "nealing evolution from a warm start. If you’re interested in learning how to transform the RCPSP into a QUBO and solve smaller instances of the problem using the purely quantum BQM method, I cover that in detail in my research article. A link to all the BQM code used during the research is provided there, and the article is open access, so feel free to read it and download it. To create a CQM model of our project, we simply follow the code below: (R, J, T) = (range(len(C)), range(len(p)), range(new_ph)) # Create empty model cqm=ConstrainedQuadraticModel() # Create binary variables x = {(i, t): Binary(f'x{i}_{t}') for i in J for t in T} # Create objective function (1) objective = quicksum(t*x[(n+1,t)] for t in T) cqm.set_objective(objective) # Add constraint (2) for a in J: cqm.add_constrai"
+      },
+      {
+        "rank": 3,
+        "score": 0.44259047508239746,
+        "domain": "towardsdatascience",
+        "text": "t’s a heuristic method. However, it’s an extremely powerful heuristic that can be applied to a wide range of optimization problems. I also compared Gurobi and quantum annealing on the same instance we have worked with in this article, but this time using for both methods the naive time horizon. As shown in Figure 20, Gurobi took 446.9 seconds to produce the optimal solution of 39 days using the naive time horizon, while quantum annealing took only 5.1 seconds to generate a near-optimal solution of 40 days. Figure 20. Benchmark of gurobi and D-waves CQM (Image created by the author) Even though quantum annealing didn’t achieve the optimal solution in this benchmark, the beauty of heuristics lies in their speed and flexibility. Heuristics can be combined with exact methods to reach the optim"
+      },
+      {
+        "rank": 4,
+        "score": 0.4457717537879944,
+        "domain": "towardsdatascience",
+        "text": "e objective function. An excellent guide on how to do this was published by Fred Glover [6]. Once the optimization problem is in QUBO or ISING form, it must be mapped onto the quantum chip. The chip has a fixed architecture for the qubits – a topology, if you will (the current generation of D-wave quantum annealers uses a topology known as Pegasus). Since the qubits are not fully connected, we need to be creative when mapping the problem into the quantum chip. If for example a qubit i needs to interact with qubit j , but they aren’t directly connected in the machine’s topology, we need to find other qubits (or a group of them) that form a connecting path between i and j . This path is known as a \"chain\", and the process of mapping a problem onto the quantum chip is called minor embedding, "
+      },
+      {
+        "rank": 5,
+        "score": 0.4484066963195801,
+        "domain": "towardsdatascience",
+        "text": "Solving a Constrained Project Scheduling Problem with Quantum Annealing | Towards Data Science Data Science Solving a Constrained Project Scheduling Problem with Quantum Annealing Solving the resource constrained project scheduling problem (RCPSP) with D-Wave's hybrid constrained quadratic model (CQM) Luis Fernando PÉREZ ARMAS, Ph.D. Aug 20, 2024 29 min read Share Why did the dog fail quantum mechanics class? He couldn’t grasp the concept of super-paws-ition. Quantum superposition is the principle where a quantum system can exist in multiple states simultaneously until it is measured, at which point it collapses into one of the possible states. (Image generated by DALLE-3) I’m really excited to share this article with you because it’s closely tied to my current research: optimizing project"
+      }
+    ]
+  },
+  {
+    "query": "quantum qnnealing",
+    "top_k": 5,
+    "timestamp": "2026-01-11T09:45:44.119765",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.3946237564086914,
+        "domain": "towardsdatascience",
+        "text": "t or show your appreciation with a clap 👏 . And if you’re interested in staying updated on my latest articles, consider following me on Medium. Your support and feedback are what drive me to keep exploring and sharing. Thank you for taking the time to read, and stay tuned for more insights in my next article! References [1] Pérez Armas, L. F., Creemers, S., & Deleplanque, S. (2024). Solving the resource constrained project scheduling problem with quantum annealing. Scientific Reports , 14 (1), 16784. https://doi.org/10.1038/s41598-024-67168-6 [2] Albash, T., & Lidar, D. A. (2018). Adiabatic quantum computation. Reviews of Modern Physics , 90 (1), 015002. [3] Kadowaki, T., & Nishimori, H. (1998). Quantum annealing in the transverse Ising model. Physical Review E , 58 (5), 5355. [4] Kirkpatr"
+      },
+      {
+        "rank": 2,
+        "score": 0.4400370717048645,
+        "domain": "towardsdatascience",
+        "text": "nealing evolution from a warm start. If you’re interested in learning how to transform the RCPSP into a QUBO and solve smaller instances of the problem using the purely quantum BQM method, I cover that in detail in my research article. A link to all the BQM code used during the research is provided there, and the article is open access, so feel free to read it and download it. To create a CQM model of our project, we simply follow the code below: (R, J, T) = (range(len(C)), range(len(p)), range(new_ph)) # Create empty model cqm=ConstrainedQuadraticModel() # Create binary variables x = {(i, t): Binary(f'x{i}_{t}') for i in J for t in T} # Create objective function (1) objective = quicksum(t*x[(n+1,t)] for t in T) cqm.set_objective(objective) # Add constraint (2) for a in J: cqm.add_constrai"
+      },
+      {
+        "rank": 3,
+        "score": 0.44259047508239746,
+        "domain": "towardsdatascience",
+        "text": "t’s a heuristic method. However, it’s an extremely powerful heuristic that can be applied to a wide range of optimization problems. I also compared Gurobi and quantum annealing on the same instance we have worked with in this article, but this time using for both methods the naive time horizon. As shown in Figure 20, Gurobi took 446.9 seconds to produce the optimal solution of 39 days using the naive time horizon, while quantum annealing took only 5.1 seconds to generate a near-optimal solution of 40 days. Figure 20. Benchmark of gurobi and D-waves CQM (Image created by the author) Even though quantum annealing didn’t achieve the optimal solution in this benchmark, the beauty of heuristics lies in their speed and flexibility. Heuristics can be combined with exact methods to reach the optim"
+      },
+      {
+        "rank": 4,
+        "score": 0.4457717537879944,
+        "domain": "towardsdatascience",
+        "text": "e objective function. An excellent guide on how to do this was published by Fred Glover [6]. Once the optimization problem is in QUBO or ISING form, it must be mapped onto the quantum chip. The chip has a fixed architecture for the qubits – a topology, if you will (the current generation of D-wave quantum annealers uses a topology known as Pegasus). Since the qubits are not fully connected, we need to be creative when mapping the problem into the quantum chip. If for example a qubit i needs to interact with qubit j , but they aren’t directly connected in the machine’s topology, we need to find other qubits (or a group of them) that form a connecting path between i and j . This path is known as a \"chain\", and the process of mapping a problem onto the quantum chip is called minor embedding, "
+      },
+      {
+        "rank": 5,
+        "score": 0.4484066963195801,
+        "domain": "towardsdatascience",
+        "text": "Solving a Constrained Project Scheduling Problem with Quantum Annealing | Towards Data Science Data Science Solving a Constrained Project Scheduling Problem with Quantum Annealing Solving the resource constrained project scheduling problem (RCPSP) with D-Wave's hybrid constrained quadratic model (CQM) Luis Fernando PÉREZ ARMAS, Ph.D. Aug 20, 2024 29 min read Share Why did the dog fail quantum mechanics class? He couldn’t grasp the concept of super-paws-ition. Quantum superposition is the principle where a quantum system can exist in multiple states simultaneously until it is measured, at which point it collapses into one of the possible states. (Image generated by DALLE-3) I’m really excited to share this article with you because it’s closely tied to my current research: optimizing project"
+      }
+    ]
+  },
+  {
+    "query": "symptom onset",
+    "top_k": 5,
+    "timestamp": "2026-01-11T09:48:18.154336",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7268528938293457,
+        "domain": "WHO",
+        "text": "ld Health Organization COVID-19 cases, country level trends Percent change based on previous 28 days Source: World Health Organization Metadata Glossary and definitions Confirmed COVID-19 case Although COVID-19 defines the symptomatic disease caused by SARS-CoV-2, the cases are presented in this dashboard meet one of two alternate definitions of confirmed case of SARS-CoV-2 infection in international surveillance reporting: a) A person with a positive Nucleic Acid Amplification Test (NAAT), regardless of clinical criteria* OR epidemiological criteria*. b) A person meeting clinical criteria* AND/OR epidemiological criteria* (suspect case A) with a positive professional-use or self-test SARS-CoV-2 Antigen-RDT. *Please visit the WHO COVID-19 Case definition for details on clinical and epidemi"
+      },
+      {
+        "rank": 2,
+        "score": 0.7705369591712952,
+        "domain": "WHO",
+        "text": "es, reporting practice, and lag times (e.g. time to case notification, and time to reporting of deaths) differ between countries, territories and areas. These factors, amongst others, influence the counts presented with variable under or overestimation of true case and death counts, and variable delays to reflecting these data at a global level. All data represent date of reporting as opposed to date of symptom onset. All data are subject to continuous verification and may change based on retrospective updates to accurately reflect trends, changes in country case definitions and/or reporting practices. Significant data errors detected or reported to WHO may be corrected at more frequent intervals. New case and death counts from the Region of the Americas Starting from the week commencing o"
+      },
+      {
+        "rank": 3,
+        "score": 0.8037430047988892,
+        "domain": "WHO",
+        "text": "th a positive professional-use or self-test SARS-CoV-2 Antigen-RDT. *Please visit the WHO COVID-19 Case definition for details on clinical and epidemiological criteria. Updated 22 July 2023 Last 7 days ‘Last 7 days’ refers to the most recent complete epidemiological week (commonly referred to as an 'epi week'). Last 28 days ‘Last 28 days’ refers to the four preceding most recently complete epidemiological weeks. WHO Regions The World Health Organization (WHO) is divided into six regions with regional offices, each responsible for addressing health challenges and promoting public health within its designated geographical area. These regions serve as administrative units that allow the WHO to tailor its efforts to the specific needs, priorities, and health conditions of member countries with"
+      },
+      {
+        "rank": 4,
+        "score": 0.8052921891212463,
+        "domain": "WHO",
+        "text": "ctices. Significant data errors detected or reported to WHO may be corrected at more frequent intervals with some countries performing retrospective bulk corrections may lead to the appearance of significant spikes or negative values which are verified and validated by WHO. In the context of WHO's statistical reporting of COVID-19 data, it is important to note that only confirmed cases are included in case and death counts. In guidance updated on 22 July 2023; there are two alternative definitions for 'Confirmed case of SARS-CoV-2 infection' in international surveillance reporting, although some departures may exist due to local adaptations: a) A person with a positive Nucleic Acid Amplification Test (NAAT), regardless of clinical criteria OR epidemiological criteria. b) A person meeting c"
+      },
+      {
+        "rank": 5,
+        "score": 0.8237411975860596,
+        "domain": "WHO",
+        "text": "ion which also includes information on SARS-CoV-2 variant circulation. This global summary of COVID-19 cases includes data on confirmed cases reported to WHO from the comprehensive COVID-19 case monitoring. Coronavirus (COVID-19) cases, %%COUNTRY%% data Source: World Health Organization Loading... Loading... Loading... What is the definition of 'confirmed' and 'reported' in COVID-19 data? All data represents the date of reporting as opposed to date of symptom onset. All data is subject to continuous verification and may change based on retrospective updates to accurately reflect trends, changes in country case definitions and/or reporting practices. Significant data errors detected or reported to WHO may be corrected at more frequent intervals with some countries performing retrospective b"
+      }
+    ]
+  },
+  {
+    "query": "Trump",
+    "top_k": 5,
+    "timestamp": "2026-01-11T09:53:56.897616",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.6415318250656128,
+        "domain": "apnews",
+        "text": "g with oil executives in the East Room of the White House, Friday, Jan. 9, 2026, in Washington. (AP Photo/Alex Brandon) Trump signs executive order meant to protect the money from Venezuelan oil President Donald Trump has issued a new executive order to protect Venezuelan oil revenue from judicial proceedings. 1 MIN READ MORE COVERAGE Nobel Institute says Venezuelan leader Machado can’t give Peace Prize to Trump 1 MIN READ Millions of Venezuelans scattered across Latin America cautiously watch what comes next 6 MIN READ Nicaragua’s government says it’s freeing detainees after pressure from the US 2 MIN READ Trump pushes a 1-year, 10% cap on credit card interest rates and banks balk Congress is debating the possible consequences for ICE and even Noem after Renee Good’s killing Actor Timothy"
+      },
+      {
+        "rank": 2,
+        "score": 0.6860718131065369,
+        "domain": "apnews",
+        "text": "n Español Deportes Donald Trump Most watched videos Standards Quizzes Press Releases My Account AP News Code of Conduct Sign in Search Query Submit Search Show Search Menu Submit Search Bob Weir dies Alex Bregman contract Iran protests T.K. Carter dies at 69 Anti-ICE protests Menu World SECTIONS Israel-Hamas War Russia-Ukraine War Español China Asia Pacific Latin America Europe Africa TOP STORIES Anti-ICE protesters assemble across the US after shootings in Minneapolis and Portland, Oregon How the US could take over Greenland and the potential challenges Nicaragua’s government says it’s freeing detainees after pressure from the US Newsletters The Morning Wire Our flagship newsletter breaks down the biggest headlines of the day. The Afternoon Wire Get caught up on what you may have missed t"
+      },
+      {
+        "rank": 3,
+        "score": 0.6862151622772217,
+        "domain": "apnews",
+        "text": "10, 2026. (UGC via AP) Iran warns US troops and Israel will be targets if America strikes over protests as death toll rises Protests challenging Iran’s theocracy have reached the two-week mark, with demonstrators flooding the streets in Tehran and Mashhad. 5 MIN READ MORE COVERAGE Footage circulating on social media shows protesters in Tehran cheering on road around bonfire What to know about the protests shaking Iran 5 MIN READ A timeline of how the protests in Iran unfolded and grew 3 MIN READ President Donald Trump chooses a reporter to ask a question with Vice President JD Vance, left, and Sec. of State Marco Rubio, right, during a meeting with oil executives in the East Room of the White House, Friday, Jan. 9, 2026, in Washington. (AP Photo/Alex Brandon) Trump signs executive order me"
+      },
+      {
+        "rank": 4,
+        "score": 0.708364725112915,
+        "domain": "apnews",
+        "text": " invest in Venezuela after Maduro ouster Doctors say changes to US vaccine recommendations are confusing parents and could harm kids WORLD NEWS Greenland’s party leaders firmly reject Trump’s push for US control of the island How the US could take over Greenland and the potential challenges Myanmar holds second round of voting in first general election since military takeover As protests rage, Iran pulls the plug on contact with the world Politics US intercepts fifth sanctioned tanker as it exerts control over Venezuelan oil distribution US launches new retaliatory strikes against ISIS in Syria after deadly ambush Virginia man pleads not guilty to charges in DC pipe bomb case Fractures are starting to show in Trump’s GOP at the start of this election year Entertainment Hollywood stars gath"
+      },
+      {
+        "rank": 5,
+        "score": 0.739057719707489,
+        "domain": "apnews",
+        "text": "fire, flood and ‘plague’ Newsletters World of Faith Comprehensive global coverage of how religion shapes our world. See All Newsletters Español SECTIONS Deportes Donald Trump TOP STORIES ¿Puede una cómoda convertirse en un armario de cocina? El arte de reutilizar muebles antiguos Argentina reembolsa a EEUU tras acuerdo financiero por 20.000 de dólares Fuerzas de seguridad sirias entran en barrio de Alepo tras enfrentamientos con combatientes kurdos Most watched videos Standards Quizzes Press Releases My Account AP News Code of Conduct World Israel-Hamas War Russia-Ukraine War Español China Asia Pacific Latin America Europe Africa Middle East U.S. Immigration Weather Education Transportation Abortion LGBTQ+ Notable Deaths Politics Elections Election Results White House Congress Supreme Cour"
+      }
+    ]
+  },
+  {
+    "query": "parallelized",
+    "top_k": 5,
+    "timestamp": "2026-01-11T10:16:18.166377",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.5820498466491699,
+        "domain": "Microsoft",
+        "text": "e to the same problem. This collaboration typically occurs in scenarios that feature the following multi-agent decision-making techniques: Brainstorming Ensemble reasoning Quorum and voting-based decisions Time-sensitive scenarios where parallel processing reduces latency. When to avoid concurrent orchestration Avoid this orchestration pattern in the following scenarios: Agents need to build on each other's work or require cumulative context in a specific sequence. The task requires a specific order of operations or deterministic, reproducible results from running in a defined sequence. Resource constraints, such as model quota, make parallel processing inefficient or impossible. Agents can't reliably coordinate changes to shared state or external systems while running simultaneously. Ther"
+      },
+      {
+        "rank": 2,
+        "score": 0.5907529592514038,
+        "domain": "Microsoft",
+        "text": " processing inefficient or impossible. Agents can't reliably coordinate changes to shared state or external systems while running simultaneously. There's no clear conflict resolution strategy to handle contradictory or conflicting results from each agent. Result aggregation logic is too complex or lowers the quality of the results. Concurrent orchestration example A financial services firm built an intelligent application that uses concurrent agents that specialize in different types of analysis to evaluate the same stock simultaneously. Each agent contributes insights from its specialized perspective, which provides diverse, time-sensitive input for rapid investment decisions. The image contains three key sections. In the top section, an arrow points from Ticker symbol to the Stock analys"
+      },
+      {
+        "rank": 3,
+        "score": 0.6375733017921448,
+        "domain": "Microsoft",
+        "text": "g, all agents work in parallel, which reduces overall run time and provides comprehensive coverage of the problem space. This orchestration pattern resembles the Fan-out/Fan-in cloud design pattern. The results from each agent are often aggregated to return a final result, but that's not required. Each agent can independently produce its own results within the workload, such as invoking tools to accomplish tasks or updating different data stores in parallel. Agents operate independently and don't hand off results to each other. An agent might invoke extra AI agents by using its own orchestration approach as part of its independent processing. The available agents must know which agents are available for processing. This pattern supports both deterministic calls to all registered agents and"
+      },
+      {
+        "rank": 4,
+        "score": 0.6457217931747437,
+        "domain": "Microsoft",
+        "text": "ext stage depends on Workflow stages that can't be parallelized Progressive refinement requirements, such as draft, review, polish workflows Systems where you understand the availability and performance characteristics of every AI agent in the pipeline, and where failures or delays in one AI agent's processing are tolerable for the overall task to be accomplished When to avoid sequential orchestration Avoid this pattern in the following scenarios: Stages are embarrassingly parallel . You can parallelize them without compromising quality or creating shared state contention. Processes that include only a few stages that a single AI agent can accomplish effectively. Early stages might fail or produce low-quality output, and there's no reasonable way to prevent later steps from processing by u"
+      },
+      {
+        "rank": 5,
+        "score": 0.6656575202941895,
+        "domain": "Microsoft",
+        "text": " The available agents must know which agents are available for processing. This pattern supports both deterministic calls to all registered agents and dynamic selection of which agents to invoke based on the task requirements. When to use concurrent orchestration Consider the concurrent orchestration pattern in the following scenarios: Tasks that you can run in parallel, either by using a fixed set of agents or by dynamically choosing AI agents based on specific task requirements. Tasks that benefit from multiple independent perspectives or different specializations, such as technical, business, and creative approaches, that can all contribute to the same problem. This collaboration typically occurs in scenarios that feature the following multi-agent decision-making techniques: Brainstormi"
+      }
+    ]
+  },
+  {
+    "query": "British",
+    "top_k": 5,
+    "timestamp": "2026-01-11T10:16:34.683901",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8164938688278198,
+        "domain": "WHO",
+        "text": "reenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Holy See Honduras Hungary Iceland India Indonesia Iran (Islamic Republic of) Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (In accordance with UN Security Council Resolution 1244 (1999)) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia (Federated States Of) Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands (Kingdom of the) New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Macedonia Norther"
+      },
+      {
+        "rank": 2,
+        "score": 0.8229862451553345,
+        "domain": "WHO",
+        "text": " between the Governments of Argentina and the United Kingdom of Great Britain and Northern Ireland concerning sovereignty over the Falkland Islands (Malvinas). The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned. Errors and omissions excepted, the names of proprietary products are distinguished by initial capital letters. All reasonable precautions have been taken by WHO to verify the accuracy of the Datasets. However, the Datasets are being provided without warranty of any kind, either expressed or implied. You will be solely responsible for your use of the Datasets. In no event shall WHO be liable for any damages arising from such use. Regiona"
+      },
+      {
+        "rank": 3,
+        "score": 0.8350211381912231,
+        "domain": "WHO",
+        "text": "f accessing or utilizing the Datasets with or without prior notice to you. Maps The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement. All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999). A dispute exists between the Governments of Argentina and the United Kingdom of Great Britain and Northern Ireland concerning sovereignty over the Falkland Islands (M"
+      },
+      {
+        "rank": 4,
+        "score": 0.8368934392929077,
+        "domain": "WHO",
+        "text": "Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Sweden Switzerland Syrian Arab Republic Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Türkiye Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom of Great Britain and Northern Ireland United Republic of Tanzania United States of America United States Virgin Islands Uruguay Uzbekistan Vanuatu Venezuela (Bolivarian Republic of) Viet Nam Wallis and Futuna Yemen Zambia Zimbabwe Summary Circulation Cases Deaths Hospitalizations Vaccines Variants Wastewater Data About More resources More COVID-19 Cases, %%COUNTRY%% WHO will utilize various sou"
+      },
+      {
+        "rank": 5,
+        "score": 0.8427192568778992,
+        "domain": "WHO",
+        "text": "ccounts. Since 22 March 2020, global data has been compiled through WHO region-specific dashboards, and/or aggregate count data reported directly to WHO headquarters by Member States. Statistical counts include both domestic and repatriated cases. Case detection, definitions, testing strategies, reporting practice, and lag times (e.g. time to case notification, and time to reporting of deaths) differ between countries, territories and areas. These factors, amongst others, influence the counts presented with variable under or overestimation of true case and death counts, and variable delays to reflecting these statistics at a global level. Please note that statistics do not necessarily reflect the actual number of cases and deaths or the actual number of countries where cases and deaths are"
+      }
+    ]
+  }
+]
